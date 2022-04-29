@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:ital,wght@0,400;0,600;1,200&family=Road+Rage&display=swap');
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    font-family: 'Bangers', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Road Rage', cursive;
+}
+.contenedornav1{
+    height: 90px;
+    width: 100%;
+    background-image: linear-gradient(rgb(71, 78, 78), rgb(103, 252, 227) );
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 10px;
+    background-color: none;
+    font-size: 30px;
+    font-family: monospace;
+    font-family: fantasy;
+    line-height: 40px;    
+}
+.nav{
+    background-color:none;
+    margin-right: 30px; 
+    border: 2px solid black;  
+    border-radius: 3px;
+    }   
+ .nav ul li{
+     display: inline-block;
+     font-size: 40px; 
+    }
+ .nav a{
+    font-size: 20px;
+    margin-left: 10px;
+    text-decoration: none ;
+    color: rgba(5, 5, 5, 0.916);align-content: space-around;
+    animation-duration: 1s;
+        animation-name: aparecer;
+        animation-delay: 6s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+    }
+    @keyframes aparecer{
+
+    0%{
+        opacity: 0;
+    }
+
+   100%{
+       opacity: 1;
+   }
+}
+
+
+    .nav a:hover{
+        color: rgb(247, 252, 252);
+    }
+    .galeria{
+        display: flex;
+        justify-content: center;
+        min-height:350px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 150px);     
+    }
+
+    .img{ 
+       
+        border: 4px solid rgb(185, 102, 181);
+   }
+  .img01{      
+        background-image: url(img1/img01.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+  .img02 {        
+        background-image: url(img1/img02.jpg);
+        background-size: cover;
+        background-position: center; 
+    }
+  .img03{      
+        background-image: url(img1/img03.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+  .img04{         
+        background-image: url(img1/img04.jpg);
+        background-size: cover;
+        background-position: center; 
+        
+    }
+  .img05{         
+        background-image: url(img1/img05.jpg);
+        background-size: cover;
+        background-position: center;
+}  
+  .img06{         
+       background-image: url(img1/img06.jpg);
+       background-size: cover;
+       background-position: center;
+}       
+.foooter22{
+      height: 150px;
+      width: 100%;
+      background-image: linear-gradient(aqua,plum);
+      text-align: center; 
+      padding: 20px;  
+      border: 1px solid black; 
+      margin-right: 0px;  
+}
+footer p{
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+}
+footer i{
+   font-size: 40px;
+   color: rgb(0, 0, 0);
+   letter-spacing: 15px;
+}
+       @media only screen and (min-width:320px){
+         .galeria{
+               grid-template-columns: repeat(1, 1fr);   
+               grid-template-rows: repeat(6, 160px);
+         }
+         header{
+               height: 60px;
+               width: 10%; 
+        } 
+        .footer22{  
+               height: 70px;
+               width: 75%;
+               padding: 40px;  
+               border: 2px solid black;
+        } 
+        footer p{
+              font-size: 7px;
+              margin-bottom: 30px;
+              text-align: center;
+        }
+        footer i{
+              font-size: 30px;
+        }                   
+        } 
+      @media only screen and (min-width:458px){
+       .galeria{
+              grid-template-columns: repeat(2, 1fr); 
+              grid-template-rows: repeat(3, 250px);
+               }
+       header{
+             height: 70px;
+             width: 93%;
+             }
+     .nav ul li{
+             display: inline-block;
+             font-size: 10px;
+             }
+     .footer22{ 
+           width: 95%;
+           border: 1px solid black;
+           }
+        }
+       @media  only screen and (min-width:786px){
+        .galeria{
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(2, 259px);
+        }
+        .contenedornav{
+            height: 90px;
+            width: 95%;
+           }
+           .footer22{ 
+            height: 40px; 
+            width: 95%;
+        }
+        footer i{
+            font-size: 20px;
+            color: rgb(6, 14, 12);
+            letter-spacing: 9px;
+         }
+        
+        }        
+      @media  only screen and (min-width:1011px){
+        .galeria{
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(2, 215px);                          
+        } 
+       
+        .img1.jpg{
+                grid-column: 1/2;
+                grid-row: 1/2;            
+        }
+        .img2.jpg{
+                grid-column: 2/3;
+                grid-row: 1/2;
+               
+        }
+        .img3.jpg{
+                grid-column: 3/4;
+                grid-row: 1/2;          
+        }
+        .img4.jpg{
+                grid-column: 1/2;
+                grid-row: 2/3;          
+        }
+        .img5{
+               grid-column: 2/3;
+               grid-row: 2/3;        
+        }
+        .img6.jpg{
+               grid-column: 3/4;
+               grid-row: 2/3;
+        }   
+        .footer22{ 
+            height: 40px; 
+            width: 90%;
+        }
+        }
+    
+      
