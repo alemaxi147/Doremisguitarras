@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0; 
+    box-sizing: border-box;
 }
 body{
     font-family: 'Bangers', cursive;
@@ -58,6 +59,25 @@ font-family: 'Road Rage', cursive;
     .nav a:hover{
         color: rgb(244, 252, 252);
     } 
+    .parrafo{
+        height: 105px;
+        width: 100%;
+        background-image: linear-gradient(rgb(85, 92, 92),rgb(184, 184, 184));
+        display: flex;
+        text-transform: uppercase;
+        border: 7px solid black;
+      }
+      
+      .parrafo p{
+          font-size: 18px;
+          color: white;
+          text-align: center;
+          box-shadow: 10px 8px 12px black;
+      
+      }
+      .parrafo img{
+        border: 7px solid black; 
+      }
     .galeria{
         display: flex;
         justify-content: center;
@@ -198,6 +218,7 @@ footer i{
         .contenedornav{
             height: 90px;
             width: 93%;
+        }
         }
         .img1.jpg{
                 grid-column: 1/2;
