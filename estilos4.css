@@ -1,70 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:ital,wght@0,400;0,600;1,200&family=Road+Rage&display=swap');
- *{
-    margin: 0;
-    padding: 0; 
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:ital,wght@0,400;0,600;1,200&family=Road+Rage&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Bangers', cursive;
-font-family: 'Poppins', sans-serif;
-font-family: 'Road Rage', cursive;
+body {
+  font-family: "Bangers", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Road Rage", cursive;
+  background-color: black;
 }
 
-.contenedornav{
-    height: 70px;
-    width: 100%;
-    background-image: linear-gradient(aqua,rgb(67, 10, 116));
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+.contenedornav {
+  height: 70px;
+  width: 100%;
+  background-image: linear-gradient(aqua, rgb(67, 10, 116));
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-.logo{
-    margin-left: 10px;
-    background-color: none;
-    font-size: 30px;
-    font-family: monospace;
-    font-family: fantasy;
-    line-height: 40px;    
+.logo {
+  margin-left: 10px;
+  background-color: none;
+  font-size: 30px;
+  font-family: monospace;
+  font-family: fantasy;
+  line-height: 40px;
 }
-.nav{
-    background-color:none;
-    margin-right: 30px; 
-    }   
- .nav ul li{
-     display: inline-block;
-     font-size: 40px; 
-    }
- .nav a{
-    font-size: 20px;
-    margin-left: 10px;
-    text-decoration: none ;
-    color: rgba(2, 2, 2, 0.916);
-    align-content: space-around;
-    }
-    .nav a:hover{
-        color: rgb(249, 252, 252);
-    }
-    section{
-        height: 200px;
-        width: 70%;
-      display: inline; 
-      }
-      .carousel-item {
-        height: 100vh;
-        min-height: 620px;
-        background: no-repeat scroll scroll;
-        -webkit-background-size: cover;
-        background-size: cover;
-      }
-.footer4{
-    background-color: aqua;
-         height: 150px;
-         width: 100%;
-         text-align: center;
-    }
-    .footer4 p{
-        font-size: 10px;
-    }
-    .footer4 i{
-         color: black;
-    }
+.nav {
+  background-color: none;
+  margin-right: 30px;
+}
+.nav ul li {
+  display: inline-block;
+  font-size: 40px;
+}
+.nav a {
+  font-size: 20px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: rgba(2, 2, 2, 0.916);
+  align-content: space-around;
+}
+.nav a:hover {
+  color: rgb(249, 252, 252);
+}
+.parrafo {
+  height: 105px;
+  width: 100%;
+  background-image: linear-gradient(rgb(85, 92, 92), rgb(184, 184, 184));
+  display: flex;
+  text-transform: uppercase;
+  border: 7px solid black;
+}
+
+.parrafo p {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  box-shadow: 10px 8px 12px black;
+}
+.parrafo img {
+  border: 7px solid black;
+}
+.caru {
+  height: 100px;
+  width: 70%;
+  display: inline;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 100px;
+  background: no-repeat scroll scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.footer4 {
+  background-color: aqua;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}
+.footer4 p {
+  font-size: 10px;
+}
+.footer4 i {
+  color: black;
+}
