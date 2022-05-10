@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:ital,wght@0,400;0,600;1,200&family=Road+Rage&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bangers", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Road Rage", cursive;
+}
+
+.contenedornav {
+  height: 90px;
+  width: 100%;
+  background-image: linear-gradient(aqua, rgb(203, 19, 244));
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 10px;
+  background-color: none;
+  font-size: 30px;
+  font-family: monospace;
+  font-family: fantasy;
+  line-height: 40px;
+}
+
+.nav {
+  background-color: none;
+  margin-right: 30px;
+  display: flex;
+}
+
+.nav ul li {
+  display: inline-block;
+  font-size: 40px;
+}
+
+.nav ul {
+  margin-right: 30px;
+}
+
+.nav a {
+  font-size: 20px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: rgba(13, 13, 13, 0.916);
+  align-content: space-around;
+}
+
+.nav a:hover {
+  color: rgb(250, 254, 254);
+}
+
+.nav a:hover {
+  color: rgb(250, 254, 254);
+}
+
+section {
+  height: 450px;
+  width: 100%;
+  background-image: url(img5/5.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: cente;
+  display: inline-block;
+  font-size: 25px;
+  color: aqua;
+}
+
+main {
+  height: 150px;
+  width: 100%;
+  background-color: black;
+}
+
+.container-text {
+  background-attachment: fixed;
+  text-align: center;
+}
+.container-text p {
+  height: 17px;
+  width: 100%;
+}
+
+footer {
+  height: 130px;
+  width: 100%;
+  background-image: linear-gradient(aqua, rgb(67, 10, 116));
+  text-align: center;
+  padding: 20px;
+  border: 3px solid black;
+}
+footer p {
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 15px;
+}
+
+footer i {
+  font-size: 40px;
+  color: black;
+  letter-spacing: 15px;
+}
+
+/*# sourceMappingURL=estilos5.css.map */
