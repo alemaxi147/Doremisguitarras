@@ -11,10 +11,10 @@ body {
   font-family: "Road Rage", cursive;
 }
 
-.contenedornav {
+.contenedornav3 {
   height: 90px;
   width: 100%;
-  background-image: linear-gradient(aqua, rgb(203, 19, 244));
+  background-image: linear-gradient(rgb(7, 251, 251), rgb(203, 19, 244));
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -30,22 +30,22 @@ body {
   line-height: 40px;
 }
 
-.nav {
+.nav3 {
   background-color: none;
   margin-right: 30px;
   display: flex;
 }
 
-.nav ul li {
+.nav3 ul li {
   display: inline-block;
   font-size: 40px;
 }
 
-.nav ul {
+.nav3 ul {
   margin-right: 30px;
 }
 
-.nav a {
+.nav3 a {
   font-size: 20px;
   margin-left: 10px;
   text-decoration: none;
@@ -53,12 +53,44 @@ body {
   align-content: space-around;
 }
 
-.nav a:hover {
+.nav3 a:hover {
   color: rgb(250, 254, 254);
 }
 
-.nav a:hover {
-  color: rgb(250, 254, 254);
+.btn--red1 {
+  display: inline;
+  font-size: 40px;
+  line-height: 20px;
+  color: rgb(27, 34, 236);
+  text-transform: uppercase;
+  font-family: cursive;
+}
+
+.btn--red2 {
+  display: inline;
+  font-size: 40px;
+  line-height: 20px;
+  color: rgb(10, 249, 58);
+  text-transform: uppercase;
+  font-family: cursive;
+}
+
+.btn--red3 {
+  display: inline;
+  font-size: 40px;
+  line-height: 20px;
+  color: rgb(40, 166, 245);
+  text-transform: uppercase;
+  font-family: cursive;
+}
+
+.btn--red4 {
+  display: inline;
+  font-size: 40px;
+  line-height: 20px;
+  color: rgb(156, 56, 28);
+  text-transform: uppercase;
+  font-family: cursive;
 }
 
 section {
@@ -68,9 +100,13 @@ section {
   background-position: center;
   background-size: cover;
   text-align: cente;
+}
+
+.container,
+.extend {
   display: inline-block;
   font-size: 25px;
-  color: aqua;
+  color: rgb(9, 220, 248);
 }
 
 main {
@@ -101,12 +137,6 @@ footer p {
   text-transform: uppercase;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: 15px;
-}
-
-footer i {
-  font-size: 40px;
-  color: black;
-  letter-spacing: 15px;
 }
 
 /*# sourceMappingURL=estilos5.css.map */
