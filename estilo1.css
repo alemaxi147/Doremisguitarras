@@ -13,7 +13,7 @@ body {
 .contenedornav1 {
   height: 90px;
   width: 100%;
-  background-image: linear-gradient(aqua, rgb(67, 10, 116));
+  background-image: linear-gradient(rgb(7, 251, 251), rgb(203, 19, 244));
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -35,15 +35,18 @@ body {
   display: inline-block;
   font-size: 40px;
 }
+.nav ul {
+  margin-right: 30px;
+}
 .nav a {
   font-size: 20px;
   margin-left: 10px;
   text-decoration: none;
-  color: rgba(5, 5, 5, 0.916);
+  color: rgba(13, 13, 13, 0.916);
   align-content: space-around;
 }
 .nav a:hover {
-  color: rgb(247, 252, 252);
+  color: rgb(250, 254, 254);
 }
 .parrafo {
   height: 90px;
@@ -82,15 +85,15 @@ section {
 }
 
 .footer {
-  background-color: aqua;
-  height: 190px;
+  background-image: linear-gradient(aqua, rgb(67, 10, 116));
+  height: 180px;
   width: 100%;
-  bottom: 0;
   text-align: center;
 }
 .footer p {
-  font-size: 10px;
+  font-size: 20px;
 }
 .footer i {
-  color: black;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
 }

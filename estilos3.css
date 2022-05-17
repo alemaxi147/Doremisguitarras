@@ -12,7 +12,7 @@ body {
 .contenedornav {
   height: 90px;
   width: 100%;
-  background-image: linear-gradient(aqua, rgb(124, 71, 174));
+  background-image: linear-gradient(rgb(7, 251, 251), rgb(203, 19, 244));
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -111,13 +111,6 @@ body {
   background-size: cover;
   background-position: center;
 }
-section video {
-  height: 90vh;
-  width: 100%;
-  object-fit: cover;
-  position: relative;
-}
-
 .footerr {
   height: 110px;
   width: 100%;
@@ -134,7 +127,7 @@ footerr p {
 }
 footerr i {
   font-size: 40px;
-  color: rgb(1, 1, 1);
+  color: rgb(12, 11, 11);
   letter-spacing: 15px;
 }
 

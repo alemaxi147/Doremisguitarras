@@ -14,7 +14,7 @@ body {
 .contenedornav {
   height: 70px;
   width: 100%;
-  background-image: linear-gradient(aqua, rgb(67, 10, 116));
+  background-image: linear-gradient(rgb(7, 251, 251), rgb(203, 19, 244));
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -36,15 +36,18 @@ body {
   display: inline-block;
   font-size: 40px;
 }
+.nav ul {
+  margin-right: 30px;
+}
 .nav a {
   font-size: 20px;
   margin-left: 10px;
   text-decoration: none;
-  color: rgba(2, 2, 2, 0.916);
+  color: rgba(13, 13, 13, 0.916);
   align-content: space-around;
 }
 .nav a:hover {
-  color: rgb(249, 252, 252);
+  color: rgb(250, 254, 254);
 }
 .parrafo {
   height: 105px;
@@ -77,14 +80,15 @@ body {
   background-size: cover;
 }
 .footer4 {
-  background-color: aqua;
+  background-image: linear-gradient(aqua, rgb(67, 10, 116));
   height: 200px;
   width: 100%;
   text-align: center;
 }
 .footer4 p {
-  font-size: 10px;
+  font-size: 20px;
 }
 .footer4 i {
-  color: black;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
 }
