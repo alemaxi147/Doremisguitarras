@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:ital,wght@0,400;0,600;1,200&family=Road+Rage&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:ital,wght@0,400;0,600;1,200&family=Road+Rage&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -21,11 +21,9 @@ body {
 }
 .logo {
   margin-left: 10px;
-  background-color: none;
   font-size: 30px;
-  font-family: monospace;
   font-family: fantasy;
-  line-height: 40px;
+  color: black;
 }
 .nav {
   background-color: none;
@@ -54,46 +52,149 @@ body {
   background-image: linear-gradient(rgb(85, 92, 92), rgb(184, 184, 184));
   display: flex;
   text-transform: uppercase;
-  border: 7px solid black;
+  border: 3px solid black;
 }
 
 .parrafo p {
-  font-size: 18px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   text-align: center;
   box-shadow: 10px 8px 12px black;
 }
 .parrafo img {
-  border: 7px solid black;
+  border: 1px solid black;
 }
-section {
-  height: 350px;
-  width: 70%;
+.carru {
+  height: 100px;
+  width: 100%;
   display: inline;
   align-content: center;
 }
 .carousel-item {
-  height: 100vh;
-  min-height: 520px;
+  height: 500px;
+  width: 100%;
   background: no-repeat scroll scroll;
   -webkit-background-size: cover;
   background-size: cover;
-  border-bottom: 10px solid rgb(250, 250, 250);
+  border-bottom: 10px solid rgb(238, 236, 236);
 }
-.carousel-caption h5 {
-  font-size: 100px;
+.efec1{
+  height: 280px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-
+.efec1 h2{
+  color: white;
+  width: 50%;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 10px;
+}
+.efec1 img{
+  width: 250px;
+  height:200px;
+  margin-right: 60px;
+  transition: 2s;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 1px 10px 15px rgb(0, 0, 0);
+  float: right;
+  align-items: center;
+}
+.efec1 img:hover{
+  transform: translateX(-20%);
+  filter: brightness(80%);
+}
 .footer {
   background-image: linear-gradient(aqua, rgb(67, 10, 116));
-  height: 180px;
+  height: 130px;
   width: 100%;
+  padding: 20px;
   text-align: center;
 }
 .footer p {
-  font-size: 20px;
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .footer i {
-  color: rgb(0, 0, 0);
   font-size: 30px;
+  color: rgb(6, 6, 6);
+  letter-spacing: 10px;
 }
+.footer i:hover {
+  color: rgb(248, 248, 248);
+}
+@media only screen and (max-width: 1032px){
+  .parrafo p{
+    font-size: 12px;
+  }
+  .efec1 h2{
+    font-size: 10px;
+  }
+  }
+  @media only screen and (max-width: 606px){
+    .parrafo p{
+      font-size: 9px;
+    }
+  .nav ul li{
+  font-size: 15px; 
+  }
+  .carru{
+    height: 150px;
+  }
+  .efec1{
+    height: 600px;
+    display: block;
+  }
+  .efec1 h2{
+    margin-left: 10px;
+    text-align: justify;
+    width: 92%;
+  }
+.efec1 img{
+    height: 325px;
+    width: 90%;
+  }
+    
+    .carousel-inner{
+      height: 300px;
+    }
+    .efec1{
+      height: 500px;
+    }
+    .parrafo p{
+      font-size: 6px;
+    }
+    .efec1 img{
+      height: 250px;
+      width: 83%;
+    }
+    }
+    @media only screen and (max-width: 336px){
+      .carousel-inner{
+        height: 200px;
+      } 
+      .efec1 img{
+        background-color: aqua;
+        height: 150px;
+        width: 83%;
+        
+      }
+      @media only screen and (max-width: 320px){
+        .contenedornav1 a{
+          font-size: 13px;
+        }
+        .logo{
+          font-size: 25px;
+        }
+        .parrafo img{
+          width: 35%;
+        }
+        }
+
+
+
