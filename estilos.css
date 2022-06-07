@@ -14,7 +14,7 @@ body {
 .contenedornav- {
   height: 90px;
   width: 100%;
-  background-image: linear-gradient(rgb(7, 251, 251), rgb(203, 19, 244));
+  background-image: linear-gradient(rgb(4, 252, 252), rgb(203, 19, 244));
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -23,28 +23,22 @@ body {
 
 .logo {
   margin-left: 10px;
-  background-color: none;
   font-size: 30px;
-  font-family: monospace;
   font-family: fantasy;
-  line-height: 40px;
 }
 
 .nav {
   background-color: none;
   margin-right: 30px;
-  display: flex;
 }
 
 .nav ul li {
   display: inline-block;
   font-size: 40px;
 }
-
 .nav ul {
   margin-right: 30px;
 }
-
 .nav a {
   font-size: 20px;
   margin-left: 10px;
@@ -52,78 +46,108 @@ body {
   color: rgba(13, 13, 13, 0.916);
   align-content: space-around;
 }
-
 .nav a:hover {
-  color: rgb(250, 254, 254);
+  color: rgb(250, 246, 251);
 }
-
-.btn--red1 {
-  display: inline;
-  font-size: 40px;
-  line-height: 20px;
-  color: rgb(27, 34, 236);
+.parrafo {
+  height: 90px;
+  width: 100%;
+  background-image: linear-gradient(rgb(85, 92, 92), rgb(184, 184, 184));
+  display: flex;
   text-transform: uppercase;
-  font-family: cursive;
+  border: 3px solid black;
 }
 
-.btn--red2 {
-  display: inline;
-  font-size: 40px;
-  line-height: 20px;
-  color: rgb(10, 249, 58);
-  text-transform: uppercase;
-  font-family: cursive;
+.parrafo p {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  text-align: center;
+  box-shadow: 10px 8px 12px black;
 }
-
-.btn--red3 {
-  display: inline;
-  font-size: 40px;
-  line-height: 20px;
-  color: rgb(40, 166, 245);
-  text-transform: uppercase;
-  font-family: cursive;
+.parrafo img {
+  height: 85px;
+  border: 1px solid black;
+  border-radius: 5px;
 }
-
-.btn--red4 {
-  display: inline;
-  font-size: 40px;
-  line-height: 20px;
-  color: rgb(156, 56, 28);
-  text-transform: uppercase;
-  font-family: cursive;
-}
-
 section {
-  height: 450px;
+  height: 650px;
   width: 100%;
-  background-image: url(img/4257.jpg);
-  background-position: center;
-  background-size: cover;
-  text-align: cente;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-
-.container, .extend {
-  display: inline-block;
-  font-size: 25px;
-  color: rgb(9, 220, 248);
+.fondo img {
+  height: 400px;
+  width: 100%;
 }
-
+.container h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+  color: white;
+}
+.container p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.zil {
+  height: 650px;
+  width: 100%;
+  background-image: linear-gradient(black, rgb(61, 57, 57));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.zil img {
+  height: 545px;
+}
+.zil p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  color: white;
+  padding: 10px;
+}
 main {
-  height: 150px;
+  height: 420px;
   width: 100%;
-  background-color: black;
+  background-image: linear-gradient(black, rgb(61, 57, 57));
 }
-
-.container-text {
-  background-attachment: fixed;
+.titulo {
   text-align: center;
 }
-.container-text p {
-  height: 17px;
-  width: 100%;
+.titulo h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  color: white;
 }
-
-footer {
+.titulo p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: white;
+}
+.videos {
+  height: 259px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-left: 100px; 
+}
+.videos iframe {
+  height: 300px;
+  width: 35%;
+}
+.videos p {
+  width: 40%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: white;
+  margin-right: 140px;
+}
+.footer {
   height: 130px;
   width: 100%;
   background-image: linear-gradient(aqua, rgb(67, 10, 116));
@@ -131,13 +155,162 @@ footer {
   padding: 20px;
   border: 3px solid black;
 }
-footer p {
+.footer p {
   font-size: 10px;
   text-transform: uppercase;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: 15px;
 }
-footer i{
-  color: black;
-  font-size: 20px;
+.footer i {
+  font-size: 30px;
+  color: rgb(6, 6, 6);
+  letter-spacing: 10px;
 }
+.footer i:hover {
+  color: rgb(255, 250, 250);
+}
+@media only screen and (max-width: 1148px){
+.parrafo img{
+  height: 850px;
+}
+.parrafo img{
+  height: 90px;
+  width: 23%;
+}
+  .parrafo p{
+    font-size: 12px;
+  }
+.zil p{
+    font-size: 19px; 
+}
+.zil img{
+  height: 400px;
+} 
+.videos iframe{
+  height: 200px;
+  width: 30%;
+}
+.videos p{
+  font-size: 15px;
+}
+}
+@media only screen and (max-width: 866px){
+  .videos p{
+    font-size: 13px;
+    margin-bottom: 40px;
+  }
+  .videos iframe{
+    height: 170px;
+    margin-bottom: 50px;
+  } 
+}
+@media only screen and (max-width: 695px){
+  .zil p{
+    font-size: 15px;
+  }
+  .videos iframe{
+    margin-bottom: 150px;
+  }
+  .videos p{
+    margin-bottom: 150px;
+    font-size: 10px;
+  }
+  }
+@media only screen and (max-width: 585px){
+    .zil {
+      display: block; 
+    } 
+    }
+@media only screen and (max-width: 484px){
+  .parrafo{
+    height: 92px;
+  }
+    .parrafo p{
+      font-size: 8px;
+      justify-content: center;
+      }
+      .fondo img{
+        height: 90px;
+      }
+      .container img{
+        width: 90%;
+        margin-left: 20px;
+      }
+      .container h1{
+        font-size: 25px;
+        text-align: center;
+      }
+      .container p{
+        font-size: 15px;
+      }
+      section{
+      height: 500px ;
+      }
+      .zil{
+        height: 560px;
+      }
+      .zil p{
+        font-size: 10px;
+        margin-left: 35px;
+      }
+      main{
+        height: 800px;
+      }
+      .videos  {
+        display: block; 
+      } 
+      .videos iframe{
+        width: 60%;
+      }
+      .videos p{
+        width: 70%;
+      }
+      }
+    @media only screen and (max-width: 390px){
+      .logo{
+        font-size: 20px;
+      }
+      .parrafo p{
+        font-size: 8px;
+        }
+        .parrafo img{
+          height: 85px;
+          width: 74%;
+        }
+      main{
+        height: 880px;
+      }
+      .zil img{
+        height: 310px;
+        width: 80%;
+      }
+      .videos{
+        margin: 30%;
+        height: 80px;
+      }
+      .videos p{
+        display: block;
+        margin-bottom: 252px;
+      }
+      }
+      @media only screen and (max-width: 320px){
+      .contenedornav-{
+        height: 130px;
+      }
+      main{
+        height: 950px;
+      }
+      .parrafo p{
+        font-size: 7px;
+        }
+      .parrafo img{
+        height: 90px;
+      }
+      .videos p{
+        margin-right: 25px;
+        margin-bottom: 130px;
+      }
+      .footer{
+        height: 130px;
+      }
+      }

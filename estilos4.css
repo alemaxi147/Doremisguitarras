@@ -8,11 +8,10 @@ body {
   font-family: "Bangers", cursive;
   font-family: "Poppins", sans-serif;
   font-family: "Road Rage", cursive;
-  background-color: black;
 }
 
-.contenedornav {
-  height: 70px;
+.contenedornave {
+  height: 90px;
   width: 100%;
   background-image: linear-gradient(rgb(7, 251, 251), rgb(203, 19, 244));
   display: flex;
@@ -22,73 +21,205 @@ body {
 }
 .logo {
   margin-left: 10px;
-  background-color: none;
   font-size: 30px;
-  font-family: monospace;
   font-family: fantasy;
-  line-height: 40px;
+  color: black;
 }
-.nav {
+.nav- {
   background-color: none;
   margin-right: 30px;
 }
-.nav ul li {
+.nav- ul li {
   display: inline-block;
   font-size: 40px;
 }
-.nav ul {
+.nav- ul {
   margin-right: 30px;
 }
-.nav a {
+.nav- a {
   font-size: 20px;
   margin-left: 10px;
   text-decoration: none;
   color: rgba(13, 13, 13, 0.916);
   align-content: space-around;
 }
-.nav a:hover {
-  color: rgb(250, 254, 254);
+.nav- a:hover {
+  color: rgb(250, 246, 251);
 }
-.parrafo {
-  height: 105px;
+.parrafo- {
+  height: 90px;
   width: 100%;
   background-image: linear-gradient(rgb(85, 92, 92), rgb(184, 184, 184));
   display: flex;
   text-transform: uppercase;
-  border: 7px solid black;
+  border: 3px solid black;
 }
 
-.parrafo p {
-  font-size: 18px;
+.parrafo- p {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   text-align: center;
   box-shadow: 10px 8px 12px black;
 }
-.parrafo img {
-  border: 7px solid black;
+.parrafo- img {
+  height: 85px;
+  border: 1px solid black;
+  border-radius: 5px;
 }
-.caru {
-  height: 100px;
-  width: 70%;
-  display: inline;
-}
-.carousel-item {
-  height: 100vh;
-  min-height: 100px;
-  background: no-repeat scroll scroll;
-  -webkit-background-size: cover;
-  background-size: cover;
-}
-.footer4 {
-  background-image: linear-gradient(aqua, rgb(67, 10, 116));
-  height: 200px;
+section {
+  height: 650px;
   width: 100%;
-  text-align: center;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.footer4 p {
+.fondo- img {
+  height: 480px;
+  width: 100%;
+}
+.container- h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+  color: white;
+}
+.container- p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
+  color: white;
 }
-.footer4 i {
-  color: rgb(0, 0, 0);
+.zil- {
+  height: 650px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.zil- img {
+  height: 545px;
+}
+.zil- p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  color: white;
+}
+.ziil {
+  height: 450px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ziil iframe {
+  height: 350px;
+  width: 43%;
+  margin-left: 25px;
+}
+.ziil p {
+  height: 50px;
+  width: 50%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 150px;
+}
+.footer- {
+  height: 130px;
+  width: 100%;
+  background-image: linear-gradient(aqua, rgb(67, 10, 116));
+  text-align: center;
+  padding: 20px;
+  border: 3px solid black;
+}
+.footer- p {
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 15px;
+}
+.footer- i {
   font-size: 30px;
+  color: rgb(12, 11, 11);
+  letter-spacing: 15px;
+}
+.footer- i:hover {
+  color: rgb(248, 248, 248);
+}
+@media only screen and (max-width: 1082px) {
+  .zil- {
+    height: 800px;
+    display: block;
+  }
+}
+@media only screen and (max-width: 817px) {
+  .zil- {
+    height: 450px;
+  }
+  .zil- img {
+    height: 245px;
+    width: 60%;
+  }
+  .ziil {
+    height: 400px;
+    display: block;
+  }
+  .ziil iframe {
+    height: 280px;
+    width: 90%;
+  }
+  .ziil p {
+    width: 100%;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 734px) {
+  .parrafo- p {
+    font-size: 11px;
+  }
+  .section {
+    height: 50px;
+  }
+  .container- img {
+    height: 280px;
+  }
+  .container- h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .container- p {
+    font-size: 12px;
+  }
+  .zil- p {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 498px) {
+  .parrafo- p {
+    font-size: 8px;
+  }
+  section {
+    height: 450px;
+  }
+  .ziil p {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 341px) {
+  .nav- ul li {
+    font-size: 7px;
+  }
+  .parrafo- p {
+    font-size: 6px;
+  }
+  .parrafo- img {
+    height: 86px;
+    width: 40%;
+  }
+  .zil- p {
+    font-size: 10px;
+  }
 }
